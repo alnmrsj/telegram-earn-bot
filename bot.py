@@ -3,13 +3,13 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 TOKEN = 8955934439:AAE7vz78vI6F5F3YYttiwNpIc4QmlsuUuTQ
 
-users = {}
+users = {Catcat4x4bot}
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_id = update.effective_user.id
 
     if user_id not in users:
-            users[Catcat4x4bot] = 0
+        users[user_id] = 0
 
     text = """
 🎉 أهلاً بك في بوت الربح
