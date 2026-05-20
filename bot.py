@@ -38,7 +38,7 @@ async def tasks(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 async def refer(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_id = update.effective_user.id
-    bot_username = Catcat4x4bot
+    bot_username = "Catcat4x4bot"
 
     link = f"https://t.me/{bot_username}?start={user_id}"
 
