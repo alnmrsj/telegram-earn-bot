@@ -9,7 +9,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_id = update.effective_user.id
 
     if user_id not in users:
-        users[user_id] = 0
+            users[Catcat4x4bot] = 0
 
     text = """
 🎉 أهلاً بك في بوت الربح
